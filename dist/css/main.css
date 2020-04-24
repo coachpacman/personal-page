@@ -32,3 +32,11 @@ header {
         display: block;
         content: "";
         left: 0; }
+
+#home {
+  width: 80%; }
+
+.description-body {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2em; }
