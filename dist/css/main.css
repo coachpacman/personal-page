@@ -32,9 +32,9 @@ header {
 main {
   width: 80%;
   margin-top: 18%;
-  margin-bottom: calc(100vh - 600px); }
+  margin-bottom: calc(100vh - 900px); }
   main .description-body {
-    font-size: 2.85rem;
+    font-size: 3rem;
     line-height: 1.2em; }
 
 footer a {
