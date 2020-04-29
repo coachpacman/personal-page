@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 //Body styles
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 1rem;
   margin: 0px;
   padding: 0px;
@@ -37,7 +38,6 @@ header {
 
       & a {
         text-transform: uppercase;
-        font-weight: 500;
         text-decoration: none;
         color: #ffffff;
       }
@@ -53,7 +53,7 @@ main {
 
   .description-body {
     font-size: 2.5rem;
-    font-weight: 500;
+    // font-weight: 300;
     line-height: 1.2em;
   }
 }
