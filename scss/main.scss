@@ -11,6 +11,9 @@ body {
   font-size: 1rem;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .content-wrap {
@@ -49,7 +52,8 @@ header {
 main {
   width: 80%;
   margin-top: 18%;
-  margin-bottom: calc(100vh - 900px);
+  flex: 1 0 auto;
+  height: calc(100vh - 600px);
 
   .description-body {
     font-size: 3rem;
@@ -60,6 +64,8 @@ main {
 //Footer styles
 
 footer {
+  flex-shrink: 0;
+
   a {
     text-decoration: none;
   }
@@ -68,5 +74,20 @@ footer {
     font-size: 30px;
     margin-right: 1.2rem;
     color: black;
+  }
+}
+
+//Media Queries
+@media all and (max-width: 699px) and (min-width: 360px) {
+  main {
+    height: calc(100vh - 800px);
+
+    .description-body {
+      font-size: 2rem;
+    }
+  }
+
+  footer a i {
+    font-size: 25px;
   }
 }
