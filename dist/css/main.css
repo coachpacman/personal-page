@@ -35,8 +35,7 @@ header {
 main {
   width: 80%;
   margin-top: 18%;
-  flex: 1 0 auto;
-  height: calc(100vh - 600px); }
+  flex: 1 0 auto; }
   main .description-body {
     font-size: 3rem;
     line-height: 1.2em; }
@@ -52,7 +51,7 @@ footer {
 
 @media all and (max-width: 699px) and (min-width: 360px) {
   main {
-    height: calc(100vh - 800px); }
+    height: calc(100vh - 300px); }
     main .description-body {
       font-size: 2rem; }
   footer a i {
